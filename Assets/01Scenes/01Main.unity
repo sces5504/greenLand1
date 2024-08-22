@@ -8375,6 +8375,7 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 276664018673336320
+    - rid: 276664020501266432
     - rid: 276664018673336324
   references:
     version: 2
@@ -8415,6 +8416,21 @@ MonoBehaviour:
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: 02scene
+    - rid: 276664020501266432
+      type: {class: InstructionCommonTimeWait, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Seconds:
+          m_Property:
+            rid: 276664020501266433
+        m_Mode:
+          m_UpdateTime: 0
+    - rid: 276664020501266433
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0.01
 --- !u!224 &4127890993692159782
 RectTransform:
   m_ObjectHideFlags: 0
