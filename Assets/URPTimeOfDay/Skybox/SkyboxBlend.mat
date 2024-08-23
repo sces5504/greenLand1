@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SkyboxBlend
+  m_Shader: {fileID: 4800000, guid: 82d663dbc5b672c4e9182eb13022b30a, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Day:
+        m_Texture: {fileID: 8900000, guid: dd872eac0c0c5744b89c88995d88a608, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Night:
+        m_Texture: {fileID: 8900000, guid: 0fc4202a8e5351243ae787644ed30683, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sunrise:
+        m_Texture: {fileID: 8900000, guid: c913c688764c5614bb0547ce390d0b2b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sunset:
+        m_Texture: {fileID: 8900000, guid: d201db9da576c1649bcb496e1f3cc4fb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DayExposure: -1
+    - _DayRotation: 0
+    - _LerpValue: 0.95517254
+    - _NightExposure: -2
+    - _NightRotation: 180
+    - _Rotation: 0
+    - _SunriseExposure: -2
+    - _SunriseRotation: 0
+    - _SunsetExposure: -2
+    - _SunsetRotation: 180
+    m_Colors: []
+  m_BuildTextureStacks: []

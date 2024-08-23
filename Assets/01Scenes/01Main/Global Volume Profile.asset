@@ -124,7 +124,25 @@ MonoBehaviour:
   dirtIntensity:
     m_OverrideState: 0
     m_Value: 0
---- !u!114 &-851349459981830039
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Global Volume Profile
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: -1624362113335254889}
+  - {fileID: -5390807111133085629}
+  - {fileID: 5505640984815653253}
+  - {fileID: -7351588216710185301}
+  - {fileID: 4881051579001020294}
+--- !u!114 &4881051579001020294
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -164,24 +182,6 @@ MonoBehaviour:
   maxNits:
     m_OverrideState: 0
     m_Value: 1000
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
-  m_Name: Global Volume Profile
-  m_EditorClassIdentifier: 
-  components:
-  - {fileID: -1624362113335254889}
-  - {fileID: -5390807111133085629}
-  - {fileID: 5505640984815653253}
-  - {fileID: -7351588216710185301}
-  - {fileID: -851349459981830039}
 --- !u!114 &5505640984815653253
 MonoBehaviour:
   m_ObjectHideFlags: 3

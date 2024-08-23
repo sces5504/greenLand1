@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 627f53c49ff380b4c819699f5622578f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - directionalLight: {instanceID: 0}
+  - proceduralSkyBox: {fileID: 2100000, guid: 4c9ccb3c7cdb9094fbf1ca13f011d3cb, type: 2}
+  - daySkybox: {instanceID: 0}
+  - nightSkybox: {instanceID: 0}
+  - dayToNightBlendMaterial: {fileID: 2100000, guid: 950c0b0ea25726540bdbefd31115d529,
+      type: 2}
+  - nightToDayBlendMaterial: {fileID: 2100000, guid: 8a89720fefb5e734d8a13642bee4e184,
+      type: 2}
+  - playerTransform: {instanceID: 0}
+  - rainPrefab: {fileID: 4311143626507988257, guid: e1aacf1364821e843ac0ff17ebf0994f,
+      type: 3}
+  - snowPrefab: {fileID: 3629926023621180339, guid: a6169ae80d353964d87992bbca2fc513,
+      type: 3}
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: beacf09f13ef8b5409ddbabb2c5ddac6, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 307520f1e07347338fe0f7cef607016a, type: 3}
+  m_Name: Menu Global
+  m_EditorClassIdentifier: 
+  m_SaveUniqueID:
+    m_Save:
+      m_Save: 1
+    m_UniqueID:
+      m_SerializedID:
+        m_String: dbbd5927-4a0d-485c-ac6d-b6b79c2599ce
+  m_NameList:
+    rid: 9205400806893551833
+  references:
+    version: 2
+    RefIds:
+    - rid: 9205400806893551833
+      type: {class: NameList, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Source:
+        - rid: 9205400806893551957
+        - rid: 9205400806893551960
+        - rid: 9205400806893551963
+        - rid: 9205400806893551966
+    - rid: 9205400806893551957
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 9205400806893551959
+        m_Name:
+          m_String: Orbit
+    - rid: 9205400806893551959
+      type: {class: ValueNumber, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 5
+    - rid: 9205400806893551960
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 9205400806893551962
+        m_Name:
+          m_String: InvCamera
+    - rid: 9205400806893551962
+      type: {class: ValueGameObject, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: {fileID: 0}
+    - rid: 9205400806893551963
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 9205400806893551965
+        m_Name:
+          m_String: InvCharacter
+    - rid: 9205400806893551965
+      type: {class: ValueGameObject, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: {fileID: 0}
+    - rid: 9205400806893551966
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 9205400806893551968
+        m_Name:
+          m_String: CapeVisible
+    - rid: 9205400806893551968
+      type: {class: ValueBool, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 1

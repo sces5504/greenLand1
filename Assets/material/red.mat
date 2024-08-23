@@ -21,7 +21,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: red
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: f4cdf730abdaa074282595ccfe968502,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -30,13 +31,16 @@ Material:
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Opaque
+  stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _AO_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -61,6 +65,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Emission_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -77,7 +85,23 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Rain_Drop_Texture:
+        m_Texture: {fileID: 2800000, guid: cdde78b4f8fb34a469124a3daadc3043, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rain_Texture:
+        m_Texture: {fileID: 2800000, guid: 3dbf1875ceadf1e429e27fb0d30e0354, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Snow_Smoothness_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Unlit_Mask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -95,10 +119,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AO_Strength: 1
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
+    - _Brightness_Rim: 2
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -109,25 +135,51 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
+    - _General_Rain: 0
+    - _General_Snow: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
+    - _QueueControl: 0
     - _QueueOffset: 0
+    - _Rain_Amount: 0
+    - _Rain_Drop_Distortion_Power: 2
+    - _Rain_Drop_Distortion_Scale: 2.5
+    - _Rain_Drop_Strength: 0
+    - _Rain_Smoothness: 1
+    - _Rain_Speed: 16
+    - _Rain_Strength: 0
+    - _Rain_Tiling: 3
+    - _Rain_Variant: 1
     - _ReceiveShadows: 1
+    - _Rim_Power: 5
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
+    - _Snow_Amount: 0
+    - _Snow_Blend_Distance: 0.1
+    - _Snow_Buildup_Noise_Size: 5
+    - _Snow_Color_Noise_Size: 50
+    - _Snow_Color_Noise_Strength: 0.5
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
+    - _Toon_Ramp_Offset: 0.5
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 0.18396229, b: 0.20978566, a: 1}
     - _Color: {r: 1, g: 0.18396226, b: 0.20978561, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Emission_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Rain_Drop_Tiling: {r: 2, g: 2, b: 0, a: 0}
+    - _Snow_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Snow_Direction: {r: 0, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Toon_Ramp_Tint: {r: 0.49056596, g: 0.49056596, b: 0.49056596, a: 1}
   m_BuildTextureStacks: []

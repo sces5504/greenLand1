@@ -8392,7 +8392,7 @@ MonoBehaviour:
     - rid: 276664018673336321
       type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: 1
+        m_Value: 4
     - rid: 276664018673336324
       type: {class: InstructionCommonSceneLoad, ns: GameCreator.Runtime.VisualScripting,
         asm: GameCreator.Runtime.Core}
