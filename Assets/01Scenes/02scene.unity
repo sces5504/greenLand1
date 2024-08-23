@@ -7893,6 +7893,7 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 276664040661450757
+    - rid: 276664041661005824
     - rid: 276664040661450765
   m_TriggerEvent:
     rid: 276664040661450753
@@ -8031,6 +8032,26 @@ MonoBehaviour:
     - rid: 276664040661450770
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data: 
+    - rid: 276664041661005824
+      type: {class: InstructionCharacterSetInvincible, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 276664041661005825
+        m_Duration:
+          m_Property:
+            rid: 276664041661005826
+        m_WaitUntilComplete: 0
+    - rid: 276664041661005825
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 276664041661005826
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0.15
 --- !u!1 &1658894673
 GameObject:
   m_ObjectHideFlags: 0
