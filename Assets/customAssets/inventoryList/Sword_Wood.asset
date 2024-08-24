@@ -67,7 +67,7 @@ MonoBehaviour:
     m_PrefabSocket: {fileID: 0}
   m_Equip:
     m_IsEquippable: 1
-    m_Prefab: {fileID: 8577520562116956334, guid: 4d4457fe2e27c44a883edbfe1846f5dd, type: 3}
+    m_Prefab: {fileID: 100000, guid: 1d407a6008b748b4f9fec2ed72ffde73, type: 3}
     m_ConditionsEquip:
       m_Conditions:
         m_Conditions: []
