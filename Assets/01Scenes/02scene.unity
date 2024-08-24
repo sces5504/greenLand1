@@ -10369,8 +10369,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1892746813}
   - component: {fileID: 1892746812}
+  - component: {fileID: 1892746814}
   m_Layer: 0
-  m_Name: Actions
+  m_Name: item giver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10393,6 +10394,7 @@ MonoBehaviour:
     - rid: 276664060158149598
     - rid: 276664060158149601
     - rid: 276664060158149604
+    - rid: 276664061134110933
   references:
     version: 2
     RefIds:
@@ -10453,6 +10455,25 @@ MonoBehaviour:
     - rid: 276664060158149606
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data: 
+    - rid: 276664061134110933
+      type: {class: InstructionInventoryAddItem, ns: GameCreator.Runtime.Inventory,
+        asm: GameCreator.Runtime.Inventory}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Item:
+          m_Property:
+            rid: 276664061134110934
+        m_Bag:
+          m_Property:
+            rid: 276664061134110935
+    - rid: 276664061134110934
+      type: {class: GetItemInstance, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      data:
+        m_Item: {fileID: 11400000, guid: b3c8ae07a24064b32a02454370e13510, type: 2}
+    - rid: 276664061134110935
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
 --- !u!4 &1892746813
 Transform:
   m_ObjectHideFlags: 0
@@ -10468,6 +10489,48 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1892746814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892746811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Instructions:
+    m_Instructions:
+    - rid: 276664061134110988
+  m_TriggerEvent:
+    rid: 276664061134110987
+  references:
+    version: 2
+    RefIds:
+    - rid: 276664061134110987
+      type: {class: EventOnStart, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 276664061134110988
+      type: {class: InstructionInventoryAddItem, ns: GameCreator.Runtime.Inventory,
+        asm: GameCreator.Runtime.Inventory}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Item:
+          m_Property:
+            rid: 276664061134110989
+        m_Bag:
+          m_Property:
+            rid: 276664061134110990
+    - rid: 276664061134110989
+      type: {class: GetItemInstance, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      data:
+        m_Item: {fileID: 11400000, guid: b3c8ae07a24064b32a02454370e13510, type: 2}
+    - rid: 276664061134110990
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
 --- !u!1 &1911639878
 GameObject:
   m_ObjectHideFlags: 0
