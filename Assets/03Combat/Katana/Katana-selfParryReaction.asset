@@ -19,8 +19,7 @@ MonoBehaviour:
     m_Property:
       rid: 276664061134111039
   m_ReactionList:
-    m_List:
-    - rid: 276664061134111063
+    m_List: []
   m_OnEnter:
     m_Instructions:
       m_Instructions: []
@@ -33,24 +32,3 @@ MonoBehaviour:
     - rid: 276664061134111039
       type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
-    - rid: 276664061134111063
-      type: {class: ReactionItem, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_MinPower:
-          m_IsEnabled: 0
-          m_Value: 1
-        m_Direction: 3
-        m_Conditions:
-          m_Conditions:
-            m_Conditions: []
-        m_AvatarMask: {fileID: 0}
-        m_CancelTime:
-          m_IsEnabled: 0
-          m_Value: 0.5
-        m_Rotation: 0
-        m_Gravity: 1
-        m_Animations:
-          m_Animations:
-          - {fileID: 0}
