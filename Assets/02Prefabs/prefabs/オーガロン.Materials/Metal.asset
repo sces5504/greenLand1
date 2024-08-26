@@ -24,85 +24,19 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _AO_Texture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Emission_Texture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Rain_Drop_Texture:
-        m_Texture: {fileID: 2800000, guid: cdde78b4f8fb34a469124a3daadc3043, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Rain_Texture:
-        m_Texture: {fileID: 2800000, guid: 3dbf1875ceadf1e429e27fb0d30e0354, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Snow_Smoothness_Texture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Unlit_Mask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AO_Strength: 1
     - _BlendMode: 0
-    - _Brightness_Rim: 2
     - _CullMode: 0
     - _Cutoff: 0.5
     - _DstBlend: 0
-    - _General_Rain: 0
-    - _General_Snow: 0
-    - _QueueControl: 0
-    - _QueueOffset: 0
-    - _Rain_Amount: 0
-    - _Rain_Drop_Distortion_Power: 2
-    - _Rain_Drop_Distortion_Scale: 2.5
-    - _Rain_Drop_Strength: 0
-    - _Rain_Smoothness: 1
-    - _Rain_Speed: 16
-    - _Rain_Strength: 0
-    - _Rain_Tiling: 3
-    - _Rain_Variant: 1
-    - _Rim_Power: 5
-    - _Smoothness: 0
-    - _Snow_Amount: 0
-    - _Snow_Blend_Distance: 0.1
-    - _Snow_Buildup_Noise_Size: 5
-    - _Snow_Color_Noise_Size: 50
-    - _Snow_Color_Noise_Strength: 0.5
     - _SrcBlend: 1
-    - _Toon_Ramp_Offset: 0.5
     - _VColBlendMode: 0
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0.1792452, g: 0.13189739, b: 0.09046806, a: 1}
-    - _Emission_Color: {r: 0, g: 0, b: 0, a: 0}
-    - _Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _Rain_Drop_Tiling: {r: 2, g: 2, b: 0, a: 0}
-    - _Snow_Color: {r: 1, g: 1, b: 1, a: 0}
-    - _Snow_Direction: {r: 0, g: 1, b: 0, a: 0}
-    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
-    - _Toon_Ramp_Tint: {r: 0.49056596, g: 0.49056596, b: 0.49056596, a: 1}
   m_BuildTextureStacks: []
