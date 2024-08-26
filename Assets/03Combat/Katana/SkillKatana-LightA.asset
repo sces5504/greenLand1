@@ -81,7 +81,7 @@ MonoBehaviour:
   m_SyncReaction: {fileID: 0}
   m_Gravity: 1
   m_TransitionIn: 0.1
-  m_TransitionOut: 0.25
+  m_TransitionOut: 0.1
   m_MeleeSequence:
     m_Sequence:
       m_Tracks:
