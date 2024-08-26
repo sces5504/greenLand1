@@ -260,8 +260,8 @@ MonoBehaviour:
     - rid: 276664087750377538
       type: {class: ClipMeleeCancel, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
-        m_Time: 0.40298507
-        m_Duration: 0.5970149
+        m_Time: 0.98507464
+        m_Duration: 0.014925361
     - rid: 276664087750377539
       type: {class: ClipDefault, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data:

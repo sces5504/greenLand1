@@ -5342,8 +5342,8 @@ MonoBehaviour:
         m_InstructionList:
           m_Instructions:
           - rid: 276664061134111084
-          - rid: 276664061134111091
           - rid: 276664061134111095
+          - rid: 276664061134111091
           - rid: 276664061134111097
           - rid: 276664061134111101
     - rid: 276664061134111076
@@ -5479,7 +5479,7 @@ MonoBehaviour:
     - rid: 276664061134111096
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: 0.5
+        m_Value: 0.6
     - rid: 276664061134111097
       type: {class: InstructionBooleanSetBool, ns: GameCreator.Runtime.VisualScripting,
         asm: GameCreator.Runtime.Core}
@@ -5682,7 +5682,7 @@ MonoBehaviour:
     - rid: 276664061134111129
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: 0.5
+        m_Value: 0.8
     - rid: 276664061134111130
       type: {class: SetBoolGlobalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
       data:
